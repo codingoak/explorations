@@ -4,7 +4,8 @@
   overflow-y: auto;
   min-height: 0px;
   gap: 30px;
-  overflow: hidden;
+  padding: 20px;
+  border-bottom: 1px solid #727477;
 }
 
 .stories__circle {
