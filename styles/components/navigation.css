@@ -1,1 +1,15 @@
+.navigation {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: #000000;
+}
 
+.navigation__button {
+  display: grid;
+  place-items: center;
+  color: #ecebed;
+}
+
+.navigation__button--active {
+  color: white;
+}
