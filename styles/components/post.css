@@ -1,0 +1,22 @@
+.post {
+  padding: 20px;
+}
+
+.post__flexbox {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.post__flexbox--right {
+  margin-left: auto;
+}
+
+.post__p-time {
+  font-size: 0.9em;
+  color: #727477;
+}
+
+.post__text {
+  padding: 10px 10px 10px 0;
+}
