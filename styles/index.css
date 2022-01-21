@@ -4,4 +4,5 @@
 
 @import "./components/header.css";
 @import "./components/navigation.css";
+@import "./components/stories.css";
 @import "./components/post.css";
