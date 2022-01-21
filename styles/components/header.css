@@ -1,11 +1,14 @@
 .circle {
-  background-color: black;
-  border: 1px solid white;
   border-radius: 50%;
   height: 2em;
   width: 2em;
   align-self: center;
   margin-right: 0.2rem;
+}
+
+.circle--dark {
+  background-color: black;
+  border: 1px solid white;
 }
 
 .header {
