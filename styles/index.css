@@ -2,4 +2,5 @@
 @import "./base.css";
 @import "./utility.css";
 
+@import "./components/header.css";
 @import "./components/navigation.css";
