@@ -1,0 +1,31 @@
+{
+  "name": "explorations",
+  "version": "1.0.0",
+  "description": "![wireframe](explorations-wireframe.png)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codingoak/explorations.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codingoak/explorations/issues"
+  },
+  "homepage": "https://github.com/codingoak/explorations#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.10",
+    "@storybook/addon-actions": "^6.4.14",
+    "@storybook/addon-essentials": "^6.4.14",
+    "@storybook/addon-links": "^6.4.14",
+    "@storybook/html": "^6.4.14",
+    "babel-loader": "^8.2.3"
+  },
+  "dependencies": {}
+}
