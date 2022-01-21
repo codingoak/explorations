@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #181a1c;
   line-height: 1.5;
 }
 
@@ -12,6 +11,7 @@ ul[role="list"] {
 
 body {
   color: white;
+  background-color: var(--color-dark-grey);
 }
 h2 {
   font-size: 1.1em;

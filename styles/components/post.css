@@ -1,6 +1,6 @@
 .post {
   padding: 20px;
-  border-bottom: 1px solid #727477;
+  border-bottom: 1px solid var(--color-lighter-grey);
 }
 
 .post__flexbox {
@@ -15,7 +15,7 @@
 
 .post__p-time {
   font-size: 0.9em;
-  color: #727477;
+  color: var(--color-lighter-grey);
 }
 
 .post__text {
