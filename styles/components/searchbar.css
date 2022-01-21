@@ -1,5 +1,5 @@
 .searchbar {
-  background-color: #323436;
+  background-color: var(--color-dark-grey);
   border-radius: 20px;
   padding: 2px 0 2px 10px;
   display: flex;
@@ -8,12 +8,12 @@
 
 .searchbar__input {
   border: none;
-  background-color: #323436;
+  background-color: var(--color-dark-grey);
   padding: 10px;
 }
 
 .searchbar__input::placeholder {
-  color: #ecebed !important;
+  color: var(--color-social-white) !important;
 }
 
 .searchbar__icon {
