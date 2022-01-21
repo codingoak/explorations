@@ -1,0 +1,23 @@
+.searchbar {
+  background-color: #323436;
+  border-radius: 20px;
+  padding: 2px 0 2px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.searchbar__input {
+  border: none;
+  background-color: #323436;
+  padding: 10px;
+}
+
+.searchbar__input::placeholder {
+  color: #ecebed !important;
+}
+
+.searchbar__icon {
+  background-color: transparent;
+  margin-left: auto;
+  padding-right: 10px;
+}
