@@ -1,0 +1,47 @@
+.stories__container {
+  display: flex;
+  flex: 1 1 auto;
+  overflow-y: auto;
+  min-height: 0px;
+  gap: 30px;
+  overflow: hidden;
+}
+
+.stories__circle {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  border: 2px solid black;
+}
+
+.stories__purple {
+  background: linear-gradient(90deg, #f62e8e, #2e8af6);
+  height: 36px;
+  width: 36px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 4px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.stories__img-big {
+  border-radius: 1rem;
+}
+
+.stories__img-profile {
+  position: absolute;
+  bottom: 2px;
+  margin: auto;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.stories__element {
+  position: relative;
+  width: 100px;
+  height: 140px;
+}
