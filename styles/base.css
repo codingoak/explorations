@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  line-height: 1.5;
 }
 
 ul[role="list"] {
@@ -11,7 +10,8 @@ ul[role="list"] {
 
 body {
   color: white;
-  background-color: var(--color-dark-grey);
+  background-color: var(--color-dark-black);
+  line-height: 1.5;
 }
 h2 {
   font-size: 1.1em;
