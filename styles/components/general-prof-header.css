@@ -1,6 +1,6 @@
 .prof-header {
   position: relative;
-  height: fit-content;
+  margin-bottom: 45px;
 }
 
 .prof-header__prof-img {
@@ -78,7 +78,7 @@ p > span {
 
 .prof-header__followed {
   position: absolute;
-  right: 50px;
+  right: 30px;
 }
 
 .prof__f-profile-1 {
@@ -86,8 +86,7 @@ p > span {
   bottom: 2px;
   margin: auto;
   bottom: -24px;
-  left: -250px;
-  right: 100px;
+  left: 20px;
   z-index: 1;
   border-radius: 50%;
   height: 32px;
@@ -99,8 +98,7 @@ p > span {
   bottom: 2px;
   margin: auto;
   bottom: -24px;
-  left: -250px;
-  right: 80px;
+  left: 32px;
   z-index: 2;
   border-radius: 50%;
   height: 32px;
@@ -113,8 +111,7 @@ p > span {
   margin: auto;
   bottom: -24px;
   bottom: -24px;
-  left: -250px;
-  right: 40px;
+  left: 44px;
   z-index: 3;
   border-radius: 50%;
   height: 32px;
@@ -126,8 +123,7 @@ p > span {
   bottom: 2px;
   margin: auto;
   bottom: -24px;
-  left: -250px;
-  right: 10px;
+  left: 56px;
   z-index: 4;
   border-radius: 50%;
   height: 32px;
