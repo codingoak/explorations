@@ -8,96 +8,49 @@
     <link rel="stylesheet" href="./styles/index.css" />
   </head>
   <body>
-    <header class="header">
-      <h1>Guten Morgen, User.</h1>
-      <img src="../../images/message-new.svg" alt="" class="header__circle" />
-    </header>
-    <main>
-      <div class="stories__container">
-        <div class="stories__element">
-          <img
-            class="stories__img-big"
-            src="https://source.unsplash.com/random/100x140?food"
-            alt=""
-          />
-          <div class="stories__purple">
-            <img
-              class="stories__img-profile"
-              src="https://source.unsplash.com/random/50x50?selfie"
-            />
-          </div>
-        </div>
-
-        <div class="stories__element">
-          <img
-            class="stories__img-big"
-            src="https://source.unsplash.com/random/100x140?fruit"
-            alt=""
-          />
-          <div class="stories__purple">
-            <img
-              class="stories__img-profile"
-              src="https://source.unsplash.com/random/50x50?face"
-            />
-          </div>
-        </div>
-
-        <div class="stories__element">
-          <img
-            class="stories__img-big"
-            src="https://source.unsplash.com/random/100x140?travel"
-            alt=""
-          />
-          <div class="stories__purple">
-            <img
-              class="stories__img-profile"
-              src="https://source.unsplash.com/random/50x50?portrait"
-            />
-          </div>
-        </div>
-
-        <div class="stories__element">
-          <img
-            class="stories__img-big"
-            src="https://source.unsplash.com/random/100x140?cat"
-            alt=""
-          />
-          <div class="stories__purple">
-            <img
-              class="stories__img-profile"
-              src="https://source.unsplash.com/random/50x50?man"
-            />
-          </div>
-        </div>
-
-        <div class="stories__element">
-          <img
-            class="stories__img-big"
-            src="https://source.unsplash.com/random/100x140?scenery"
-            alt=""
-          />
-          <div class="stories__purple">
-            <img
-              class="stories__img-profile"
-              src="https://source.unsplash.com/random/50x50?head"
-            />
-          </div>
-        </div>
-
-        <div class="stories__element">
-          <img
-            class="stories__img-big"
-            src="https://source.unsplash.com/random/100x140?dogs"
-            alt=""
-          />
-          <div class="stories__purple">
-            <img
-              class="stories__img-profile"
-              src="https://source.unsplash.com/random/50x50?selfie"
-            />
-          </div>
-        </div>
+    <header class="prof-header">
+      <img
+        src="https://source.unsplash.com/random/375x160?sig=2)"
+        width="375"
+        height="160"
+      />
+      <div class="prof-header__purple">
+        <img
+          class="prof-header__prof-img"
+          src="https://source.unsplash.com/random/140x140?sig=1"
+        />
       </div>
+      <img
+        class="prof-header__message-new"
+        src="../../images/message-new.svg"
+        alt="message-new"
+      />
+      <img
+        class="prof-header__bookmark"
+        src="../../images/bookmark-circle.svg"
+        alt="bookmark"
+      />
+      <h1>Alex Tsimikas</h1>
+      <p>
+        <span>Brooklyn, NY</span><br />
+        Writer by Profession. Artist by Passion!
+      </p>
+      <div class="prof-header__follower">
+        <p>2,467<br /><span>Followers</span></p>
+        <p>1,589<br /><span>Following</span></p>
+        <button class="prof-header__button">Edit Profile</button>
+      </div>
+    </header>
+
+    <main>
+      <nav class="prof-nav">
+        <ul role="list" class="display-c">
+          <li class="prof-nav__li-blue">Posts</li>
+          <li>Stories</li>
+          <li>Liked</li>
+          <li>Tagged</li>
+        </ul>
+      </nav>
       <section class="post">
         <div class="post__flexbox">
           <img
@@ -264,10 +217,10 @@
         <li class="display-c">
           <a href="./profile.html" class="navigation__button">
             <img
-              src="../../images/profile-g.svg"
+              src="../../images/profile-w.svg"
               alt=""
-              width="24"
-              height="24"
+              width="40"
+              height="40"
             />
           </a>
         </li>
