@@ -1,0 +1,135 @@
+.prof-header {
+  position: relative;
+  height: fit-content;
+}
+
+.prof-header__prof-img {
+  border-radius: 50%;
+  height: 142px;
+  width: 142px;
+  border: 3px solid black;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+  top: 5px;
+  z-index: 1;
+}
+.prof-header__purple {
+  background: linear-gradient(90deg, var(--color-pink), var(--color-blue));
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  position: absolute;
+  margin-right: auto;
+  margin-left: auto;
+  right: 0;
+  left: 0;
+  top: 85px;
+  z-index: 1;
+}
+
+.prof-header__message {
+  position: absolute;
+  top: 255px;
+  right: 80px;
+}
+
+.prof-header__arrow {
+  position: absolute;
+  top: 65px;
+  left: 30px;
+}
+
+.prof-header > h1 {
+  margin-top: 90px;
+  font-size: 120%;
+  text-align: center;
+}
+
+.prof-header > p {
+  text-align: center;
+}
+
+p > span {
+  color: var(--color-lighter-grey);
+}
+
+.prof-header__follower {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 24px;
+}
+.prof-header__follower > p {
+  line-height: 1.2;
+}
+
+.prof-header__button {
+  padding: 10px 25px;
+  border-radius: 20px;
+  color: white;
+  border: 1px solid var(--color-pink);
+  background-color: var(--color-pink);
+  align-self: center;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.prof-header__followed {
+  position: absolute;
+  right: 50px;
+}
+
+.prof__f-profile-1 {
+  position: absolute;
+  bottom: 2px;
+  margin: auto;
+  bottom: -24px;
+  left: -250px;
+  right: 100px;
+  z-index: 1;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.prof__f-profile-2 {
+  position: absolute;
+  bottom: 2px;
+  margin: auto;
+  bottom: -24px;
+  left: -250px;
+  right: 80px;
+  z-index: 2;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.prof__f-profile-3 {
+  position: absolute;
+  bottom: 2px;
+  margin: auto;
+  bottom: -24px;
+  bottom: -24px;
+  left: -250px;
+  right: 40px;
+  z-index: 3;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.prof__f-profile-4 {
+  position: absolute;
+  bottom: 2px;
+  margin: auto;
+  bottom: -24px;
+  left: -250px;
+  right: 10px;
+  z-index: 4;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
