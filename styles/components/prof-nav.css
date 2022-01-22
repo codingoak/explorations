@@ -1,7 +1,5 @@
 .prof-nav {
   display: flex;
-  grid-template-columns: repeat(4, 1fr);
-  background-color: var(--color-dark-black);
   border-bottom: 1px solid var(--color-lighter-grey);
   justify-content: space-between;
   margin: 0 20px;
