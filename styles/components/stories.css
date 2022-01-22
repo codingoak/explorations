@@ -8,13 +8,6 @@
   border-bottom: 1px solid #727477;
 }
 
-.stories__circle {
-  border-radius: 50%;
-  height: 32px;
-  width: 32px;
-  border: 2px solid black;
-}
-
 .stories__purple {
   background: linear-gradient(90deg, var(--color-pink), var(--color-blue));
   height: 36px;
@@ -39,6 +32,10 @@
   left: 0;
   right: 0;
   z-index: 1;
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+  border: 2px solid black;
 }
 
 .stories__element {
