@@ -1,7 +1,7 @@
 import html from "./header.html";
 
 export default {
-  title: "Components/Circle",
+  title: "Components/Header",
 };
 
 export const Default = () => html;
