@@ -8,10 +8,15 @@ ul[role="list"] {
   list-style: none;
 }
 
+main {
+  margin-bottom: 87px;
+}
+
 body {
   color: white;
   background-color: var(--color-dark-black);
   line-height: 1.5;
+  width: 100vw;
 }
 h2 {
   font-size: 1.1em;
