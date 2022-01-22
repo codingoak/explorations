@@ -13,6 +13,14 @@
   margin-left: auto;
 }
 
+.post__profile-picture {
+  border-radius: 50%;
+  height: 2em;
+  width: 2em;
+  align-self: center;
+  margin-right: 0.2rem;
+}
+
 .post__p-time {
   font-size: 0.9em;
   color: var(--color-lighter-grey);
