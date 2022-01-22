@@ -1,0 +1,11 @@
+.prof-nav {
+  display: flex;
+  border-bottom: 1px solid var(--color-lighter-grey);
+  justify-content: space-between;
+  margin: 0 20px;
+}
+
+.prof-nav__li-blue {
+  border-bottom: 4px solid var(--color-blue-nav);
+  font-weight: bold;
+}
