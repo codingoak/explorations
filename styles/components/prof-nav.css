@@ -2,7 +2,7 @@
   display: flex;
   border-bottom: 1px solid var(--color-lighter-grey);
   justify-content: space-between;
-  margin: 0 20px;
+  margin: 10px 20px 10px 20px;
 }
 
 .prof-nav__li-blue {
