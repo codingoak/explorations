@@ -51,7 +51,7 @@
   text-align: center;
 }
 
-p > span {
+span {
   color: var(--color-lighter-grey);
 }
 
@@ -65,7 +65,7 @@ p > span {
 }
 
 .prof-header__button {
-  padding: 10px 20px;
+  padding: 10px 25px;
   border-radius: 20px;
   border: 1px solid var(--color-lighter-grey);
   color: white;
