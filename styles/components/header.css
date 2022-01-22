@@ -1,18 +1,13 @@
-.circle {
+.header {
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__circle {
   border-radius: 50%;
   height: 2em;
   width: 2em;
   align-self: center;
   margin-right: 0.2rem;
-}
-
-.circle--dark {
-  background-color: black;
-  border: 1px solid white;
-}
-
-.header {
-  font-size: 1rem;
-  display: flex;
-  justify-content: space-between;
 }
